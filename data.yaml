@@ -1,0 +1,6 @@
+train: data/train/images
+val: data/val/images
+
+nc: 20  # number of traffic sign classes (change this to match your dataset)
+names: ['speed_limit', 'no_entry', 'stop', 'u_turn', 'pedestrian_crossing', 'no_parking', 'school_zone', 'horn_prohibited', 'left_turn', 'right_turn', 'roundabout', 'hospital', 'one_way', 'straight', 'caution', 'road_work', 'no_overtaking', 'cycle_crossing', 'railway_crossing', 'parking']
+

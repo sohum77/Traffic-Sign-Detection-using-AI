@@ -1,0 +1,71 @@
+# ========================
+# Traffic Sign Detection
+# ========================
+
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs / IDE
+venv/
+env/
+*.env
+.venv/
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archives / temp
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.tmp
+*.log
+
+# Large model / weights (ignore heavy model files)
+*.pt
+*.pth
+*.h5
+yolov8s.pt
+
+# Dataset folders (ignore raw/large datasets)
+Dataset/
+data/train/
+data/val/
+
+# But keep small test images for demo
+!data/test/**
+
+# YOLO runs / outputs: ignore training runs and weights
+runs/
+# allow the cleaned test_results_clean folder (so test outputs show)
+!runs/detect/test_results_clean/**
+# If you only want to keep the files inside that folder and not the parent runs/, the lines above do it.
+
+# Caches / build
+*.cache
+*.egg-info/
+.eggs/
+build/
+dist/
+*.spec
+
+# Images/screenshots control
+# keep Screenshots (so they appear on GitHub)
+!Screenshots/**
+# if you ever want to ignore screenshots, uncomment next line:
+# Screenshots/
+
+# Misc
+*.pyc
+*.pyo
